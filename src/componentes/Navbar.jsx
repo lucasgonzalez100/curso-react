@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
 
 <div className="containesComponentes" >
-<nav className="navbar navbar-dark bg-dark fixed-top">
+<nav className="navbar navbar-dark bg-dark ">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Dark Style</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">

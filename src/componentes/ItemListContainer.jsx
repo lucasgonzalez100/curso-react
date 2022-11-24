@@ -8,7 +8,7 @@ const ItemListContainer = ({ arenga }) => {
    <div className="container">
       <div className="row">
         <div className="col-md-12">
-        <div class="alert alert-primary" role="alert">
+        <div className="alert alert-primary" role="alert">
         promocion mundial {arenga}</div>
              
         </div>

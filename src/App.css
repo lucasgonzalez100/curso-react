@@ -68,7 +68,21 @@ li {
     padding: 1.5px;
     margin: auto;
     border-radius: 15%;
-    
+  }
+
+  .imegenCarrusel{
+    height: 70%;
+  }
+  .registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../public/imagenes/communication-g3319f66d7_1920.jpg);
+    color: white;
+    font-size: xx-large;
+    height: 80vh;
   }
 /* button {
     font-size: 1.25em;
