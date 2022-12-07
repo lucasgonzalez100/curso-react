@@ -1,5 +1,5 @@
 import React from "react";
-import Cardwidget from './Cardwidget';
+import CardWidget from './CardWidget';
 
 const Navbar = () => {
     return(
@@ -47,7 +47,7 @@ const Navbar = () => {
       </div>
     </div>
   </div>
-  <Cardwidget/>
+  <CardWidget/>
 
 </nav>
 

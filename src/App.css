@@ -63,10 +63,13 @@ li {
     align-content: center;
     margin: auto;
   }
-  .imagencarrito{
+  .imagenCarrito{
     background-color: #198754;
+    color:aliceblue;
+    width: 2.5rem;
+    height: 2.5rem;
     padding: 1.5px;
-    margin: auto;
+    margin: 0.8rem;
     border-radius: 15%;
   }
 

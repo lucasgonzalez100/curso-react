@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./componentes/Navbar";
+import NavBar from "./componentes/NavBar";
 import Carrousel from "./componentes/Carrousel" ;
 import Tarjetas from "./componentes/Tarjetas" ;
 import Login from "./componentes/Login" ;
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-        <Navbar/>
+        <NavBar/>
         <Carrousel/>
         <ItemListContainer arenga = {"vamos argentina"}/>
         <Tarjetas/>
