@@ -13,7 +13,7 @@ function App() {
     <div>
         <NavBar/>
         <Carrousel/>
-        <ItemListContainer arenga = {"vamos argentina"}/>
+        <ItemListContainer />
         <Tarjetas/>
         <Login/>
         <Footer/>

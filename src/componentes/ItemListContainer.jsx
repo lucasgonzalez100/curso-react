@@ -1,20 +1,35 @@
-import React from "react";
-import ItemCount from "./ItemCount";
+import { useState, useEffect } from "react";
+import arrayProductos from "./json/Productos.json"
+import ItemList from "./ItemList";
 
-const ItemListContainer = ({ arenga }) => {
+
+const ItemListContainer = () => { 
+
+   const [items, setItems] = useState([]);
+
+   useEffect(()=>{
+    const promesa = new Promise((resolve,reject)=>{
+       setTimeout(()=>{
+         resolve(arrayProductos);
+       },3000);
+
+    });
+
+    promesa.then((data)=>{
+      setItems(data);
+    })
+ 
+
+   })
+
     return(
 
 <div>
 
-   <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-        <div className="alert alert-primary" role="alert">
-        promocion mundial {arenga}</div>
-           <ItemCount stock={10}/>
-        </div>
-      </div>
-   </div>
+   <div> <ItemList items={items} /></div>
+  
+          
+      
 </div>
 
 

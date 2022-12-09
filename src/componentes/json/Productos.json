@@ -1,0 +1,22 @@
+[
+    {"id":1,"nombre":"Billetera inglesa","descripcion":"La mas alta calidad con los detalles mas delicados",
+    "precio":3200, "imagen":"billetera-inglesa-negra.jpg", "stock":12,"category":"accesorios" },
+    {"id":2,"nombre":"Billetera clasica","descripcion":"Billetera clasica marron lo clasico no pasa de moda",
+    "precio":2800, "imagen":"billetera-marron.jpg", "stock":22,"category":"accesorios" },
+    {"id":3,"nombre":"Cinturon black","descripcion":"Cinturon de cuero sintetico con detalles mas claros",
+    "precio":3750, "imagen":"cinturon-negro.jpg", "stock":7,"category":"accesorios" },
+    {"id":4,"nombre":"Reloj Crishtov","descripcion":"Reloj de un diseño esclusivo con detalles artesanales",
+    "precio":19.500, "imagen":"reloj-marron.jpg", "stock":11,"category":"accesorios" },
+    {"id":5,"nombre":"Pantalon elastizado ","descripcion":"La comodida y un buen estilo si van de la mano y esta es la prueva"
+    ,"precio":2100, "imagen":"pantalon-gris.jpg", "stock":28,"category":"deportiva" },
+    {"id":6,"nombre":"Camisa floreada","descripcion":"Para este verano poder transmitir verano, con una tela super resfrescante",
+    "precio":3100, "imagen":"camisa-salir.jpg", "stock":17,"category":"vestir" },
+    {"id":7,"nombre":"Pantalon de vestir ","descripcion":"Pantalon beig de vestir tela super suave y flexible ",
+    "precio":7800, "imagen":"pantalon-beig.jpg", "stock":13,"category":"vestir" },
+    {"id":8,"nombre":"Buzo beig ","descripcion":"Buzo under beig super suave tanto invierno como otoño ",
+    "precio":13000, "imagen":"buzo-beig.jpg", "stock":6,"category":"vestir" },
+    {"id":9,"nombre":"Musculosa","descripcion":"Musculosa under aerodinamica deportiva para tu mejor rendimiento",
+    "precio":2100, "imagen":"musculosa-azul.jpg", "stock":24,"category":"deportiva" },
+    {"id":10,"nombre":"Short deportivo","descripcion":"Short gris deportivo para deportes listo para empezar",
+    "precio":2300, "imagen":"short-gris.jpg", "stock":31,"category":"deportiva" }
+]
