@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import arrayProductos from "./json/Productos.json"
 import ItemList from "./ItemList";
 
@@ -6,11 +7,12 @@ import ItemList from "./ItemList";
 const ItemListContainer = () => { 
 
    const [items, setItems] = useState([]);
+   const {id} = useParams()
 
    useEffect(()=>{
     const promesa = new Promise((resolve,reject)=>{
        setTimeout(()=>{
-         resolve(arrayProductos);
+         resolve( id ? arrayProductos.filter (item => item.category === id) : arrayProductos );
        },3000);
 
     });
@@ -20,7 +22,7 @@ const ItemListContainer = () => {
     })
  
 
-   })
+   }, [id])
 
     return(
 

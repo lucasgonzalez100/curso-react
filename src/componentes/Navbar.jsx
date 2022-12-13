@@ -1,5 +1,6 @@
 import React from "react";
 import CardWidget from './CardWidget';
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return(
@@ -7,7 +8,7 @@ const Navbar = () => {
 <div className="containesComponentes" >
 <nav className="navbar navbar-dark bg-dark ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Dark Style</a>
+    <NavLink className="navbar-brand" to={"#"}>Dark Style</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -19,24 +20,24 @@ const Navbar = () => {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Iniciar Sesion</a>
+            <NavLink className="nav-link active" aria-current="page" to={"#"}>Iniciar Sesion</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">+ Info</a>
+            <NavLink className="nav-link" to={"#"}>+ Info</NavLink>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <NavLink className="nav-link dropdown-toggle" to={"#"} role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Productos
-            </a>
+            </NavLink>
             <ul className="dropdown-menu dropdown-menu-dark">
-              <li><a className="dropdown-item" href="#">Deportiva </a></li>
-              <li><a className="dropdown-item" href="#">Casual </a></li>
-              <li><a className="dropdown-item" href="#">Accesorios </a></li>
-              <li><a className="dropdown-item" href="#"> Fragancias </a></li>
+              <li><NavLink className="dropdown-item" to={"#"}>Deportiva </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"#"}>Casual </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"#"}>Accesorios </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"#"}> Fragancias </NavLink></li>
               <li>
                 <hr className="dropdown-divider"/>
               </li>
-              <li><a className="dropdown-item" href="#">Conjuntos </a></li>
+              <li><NavLink className="dropdown-item" to={"#"}>Conjuntos </NavLink></li>
             </ul>
           </li>
         </ul>
