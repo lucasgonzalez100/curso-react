@@ -5,9 +5,9 @@ const Footer = () => {
 
 <div>
     <div className="footer">  
-   <a href=""><img className="logoFooter" src="./imagenes/logo-facebook.svg"  alt="" /> </a>  
-    <a href=""><img className="logoFooter" src="./imagenes/logo-instagram.svg"  alt="" /></a>
-    <a href=""> <img className="logoFooter" src="./imagenes/logo-whatsapp.svg"  alt="" /></a> 
+   <a href=""><img className="logoFooter" src="/imagenes/logo-facebook.svg"  alt="" /> </a>  
+    <a href=""><img className="logoFooter" src="/imagenes/logo-instagram.svg"  alt="" /></a>
+    <a href=""> <img className="logoFooter" src="/imagenes/logo-whatsapp.svg"  alt="" /></a> 
     
     
        <div className="marcaAgua">

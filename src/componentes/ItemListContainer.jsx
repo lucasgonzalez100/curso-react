@@ -10,6 +10,7 @@ const ItemListContainer = () => {
    const {id} = useParams()
 
    useEffect(()=>{
+      console.log(id)
     const promesa = new Promise((resolve,reject)=>{
        setTimeout(()=>{
          resolve( id ? arrayProductos.filter (item => item.category === id) : arrayProductos );

@@ -13,21 +13,21 @@ const Carrousel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="1000">
-      <img src="./imagenes/sliderimagen1.jpg"  className="d-block w-100 " style={{ height:"85vh"}}  alt="..."/>
+      <img src="/imagenes/sliderimagen1.jpg"  className="d-block w-100 " style={{ height:"85vh"}}  alt="..."/>
       <div className="carousel-caption d-none d-md-block ">
         <h5>Todos los estilos que estas buscando </h5>
         <p >Nosotros nos encargamos que de los encuentres </p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="1000">
-      <img src="./imagenes/haciendocalistenia.jpg" className="d-block w-100"  style={{ height:"85vh"}} alt="..."/>
+      <img src="/imagenes/haciendocalistenia.jpg" className="d-block w-100"  style={{ height:"85vh"}} alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Calidad y comodidad </h5>
         <p>Las prendas de la mas alta calidad para vos </p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="1000">
-      <img src="./imagenes/slider_greece32.jpg" className="d-block w-100" style={{ height:"85vh"}} alt="..."/>
+      <img src="/imagenes/slider_greece32.jpg" className="d-block w-100" style={{ height:"85vh"}} alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Todas las temopradas </h5>
         <p>Consegui todo en un solo lugar invierno-verano </p>

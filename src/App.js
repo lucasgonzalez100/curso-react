@@ -21,7 +21,7 @@ function App() {
       <Tarjetas/>
            <Routes>
            <Route path={'/'} element={<ItemListContainer/>  } />
-           <Route path={'/category/:id'} element={<ItemDitailContainer/>  } />
+           <Route path={'/category/:id'} element={<ItemListContainer/>  } />
            <Route path={'/item/:id'} element={<ItemDitailContainer/>  } /> 
            <Route path={'*'} element={<Error404/>}/> 
            </Routes>
