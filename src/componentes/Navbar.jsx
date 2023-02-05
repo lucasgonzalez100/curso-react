@@ -30,12 +30,12 @@ const Navbar = () => {
               Productos
             </NavLink>
             <ul className="dropdown-menu dropdown-menu-dark">
-              <li><NavLink className="dropdown-item" to={"#"}>Deportiva </NavLink></li>
-              <li><NavLink className="dropdown-item" to={"#"}>Casual </NavLink></li>
-              <li><NavLink className="dropdown-item" to={"#"}>Accesorios </NavLink></li>
-              <li><NavLink className="dropdown-item" to={"#"}> Fragancias </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"/category/deportiva"}>Deportiva </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"/category/vestir"}>Casual </NavLink></li>
+              <li><NavLink className="dropdown-item" to={"/category/accesorios"}>Accesorios </NavLink></li>
+             
               <li>
-                <hr className="dropdown-divider"/>
+                
               </li>
               <li><NavLink className="dropdown-item" to={"#"}>Conjuntos </NavLink></li>
             </ul>

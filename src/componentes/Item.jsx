@@ -7,16 +7,18 @@ const Item = ({item}) => {
 
     return(
 
-<div>
+<div className="row container text-center "  style={{margin:"1.5rem"}}
+>
  
-
-           <div className="card" style={{ width: "25rem" }} >
+<div className=""> 
+           <div className="card " style={{ width: "25rem" }} >
           <img src={"/imagenes/" + item.imagen} height={"68%"} className="card-img-top" alt={item.nombre} />
           <div className="card-body">
             <h5 className="card-title">{item.nombre}</h5>
             <p className="card-text">{item.descripcion} </p>
             <Link to={"/item/" + item.id} className="btn btn-success">Ver mas</Link>
           </div>
+        </div>
         </div>
 </div>
 
