@@ -7,7 +7,7 @@ const ItemDetail = ({item}) => {
     return(
 
 
-        <div className="row" >
+        <div className=" row text-center " style={{margin:"1.5rem"}} >
    
                <div className="col-md-4 offser-md-2">
 
@@ -29,4 +29,4 @@ const ItemDetail = ({item}) => {
     )
 }
 
-export default ItemDetail 
+export default ItemDetail ;

@@ -8,6 +8,7 @@ import ItemListContainer from "./componentes/ItemListContainer";
 import Footer from "./componentes/Footer" ;
 import ItemDitailContainer from './componentes/ItemDitailContainer';
 import Error404 from "./componentes/Error404";
+import Checkout from './componentes/Checkout';
 
 
 function App() {
@@ -16,11 +17,11 @@ function App() {
     
     <BrowserRouter>
       <NavBar/>
-      <Tarjetas/>
            <Routes>
            <Route path={'/'} element={<ItemListContainer/>  } />
            <Route path={'/category/:category'} element={<ItemListContainer/>  } />
            <Route path={'/item/:id'} element={<ItemDitailContainer/>  } /> 
+           <Route path='/checkout' element={<Checkout/>} />
            <Route path={'*'} element={<Error404/>}/> 
            </Routes>
        <Login/>

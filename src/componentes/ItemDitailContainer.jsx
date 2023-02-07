@@ -14,8 +14,7 @@ const ItemDitailContainer = () => {
     const db = getFirestore();
     const item = doc(db, "items", id);
     getDoc (item).then((snapShot)=>{
-    if (snapShot.exist()){
-      console.log(snapShot.data());
+    if (snapShot){
       setItem({id:snapShot.id, ...snapShot.data() })
     }else {
       console.log("el producto no existe ")

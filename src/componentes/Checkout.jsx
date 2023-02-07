@@ -1,6 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Pago = () => {
+
+const Checkout = () => {
     return(
 
   <div>
@@ -21,18 +23,21 @@ const Pago = () => {
       <td>nombre item</td>
       <td>descripcion item</td>
       <td>Precio item</td>
+      <td><button type="button" className="btn btn-success btn-lg"> + </button></td>
     </tr>
   <tr>
       <th scope="row">cantidada final</th>
-      <td colspan="2">Larry the Bird</td>
+      <td colSpan="2">Nombre item</td>
       <td>precioFinal</td>
+      <td><button type="button" className="btn btn-success btn-lg"> + </button></td>
     </tr>
-<button type="button" className="btn btn-success btn-lg">Large button</button>
+<button type="button" className="btn btn-success btn-lg">Confirmar </button>
   </tbody>
 </table>
+
 </div>
 
     )
 }
 
-export default Pago;
+export default Checkout;

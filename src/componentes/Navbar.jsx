@@ -37,7 +37,7 @@ const Navbar = () => {
               <li>
                 
               </li>
-              <li><NavLink className="dropdown-item" to={"#"}>Conjuntos </NavLink></li>
+        
             </ul>
           </li>
         </ul>
